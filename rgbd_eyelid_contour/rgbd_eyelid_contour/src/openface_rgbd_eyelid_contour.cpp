@@ -49,7 +49,7 @@ const uint8_t LANDMARKS_OFFSET_LEFT = 36;
 const uint8_t LANDMARKS_OFFSET_RIGHT = 8;
 
 /// Flag that determines whether to skip inner corners of the eyes, which can cause distortion the spherical eyeball nature due to caruncle
-const bool SKIP_INNER_CORNERS = true;
+const bool SKIP_INNER_CORNERS = false;
 /// Indecis of the inner eye corners that are currently ignored. Set to 0s to enable outputting of these landmarks.
 const uint8_t LANDMARKS_INNER_CORNERS[] = {36, 14};
 
